@@ -21,7 +21,7 @@ jobs:
           targetPlatform: StandaloneWindows64
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: DLS-windows-64.zip
           path: build
@@ -40,7 +40,7 @@ jobs:
           targetPlatform: StandaloneLinux64
 
       - name: Upload Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: DLS-Linux.zip
           path: build
